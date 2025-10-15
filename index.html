@@ -12,39 +12,50 @@
 
 <section class="services">
   <div class="services__header">
-      <div class="services__topbar">
+    <div class="services__topbar">
 
-  <button class="services__menu-btn" aria-label="menu">
-    <img src="/imge/ic/burger.png" alt="menu" class="services__menu-icon" />
-  </button>
 
-  <img src="/imge/ic/Group.png" alt="Логотип" class="services__logo" />
+      
 
-  <div class="services__top-actions">
-    <div class="services__icons-group">
-      <button class="services__top-action services__top-action--circle" aria-label="phone">
-        <img src="/imge/ic/call.png" alt="phone">
-      </button>
-      <button class="services__top-action services__top-action--circle" aria-label="chat">
-        <img src="/imge/ic/chat.png" alt="chat">
-      </button>
-      <button class="services__top-action services__top-action--circle" aria-label="user">
-        <img src="/imge/ic/profile.png" alt="user">
-      </button>
-    </div>
+      <div class="services__left">
+        <button class="services__menu-btn" aria-label="menu">
+          <img src="/imge/ic/burger.png" alt="menu" class="services__menu-icon" />
+        </button>
 
-    <span class="services__divider" aria-hidden="true"></span>
+        <img src="/imge/ic/Group.png" alt="Логотип" class="services__logo" />
+      </div>
 
-    <div class="services__icons-group">
-      <button class="services__top-action services__top-action--circle" aria-label="request">
-        <img src="/imge/ic/repair.png" alt="request">
-      </button>
-      <button class="services__top-action services__top-action--circle" aria-label="search">
-        <img src="/imge/ic/checkstatus.png" alt="search">
-      </button>
+
+      <span class="services__divider" aria-hidden="true"></span>
+
+
+      <div class="services__icons-groups">
+        <button class="services__top-action services__top-action--circles" aria-label="request">
+          <img src="/imge/ic/repair.png" alt="request">
+        </button>
+        <button class="services__top-action services__top-action--circles" aria-label="search">
+          <img src="/imge/ic/checkstatus.png" alt="search">
+        </button>
+      </div>
+
+
+
+      <div class="services__top-actions">
+        <div class="services__icons-group">
+          <button class="services__top-action services__top-action--circle" aria-label="phone">
+            <img src="/imge/ic/call.png" alt="phone">
+          </button>
+          <button class="services__top-action services__top-action--circle" aria-label="chat">
+            <img src="/imge/ic/chat.png" alt="chat">
+          </button>
+          <button class="services__top-action services__top-action--circle" aria-label="user">
+            <img src="/imge/ic/profile.png" alt="user">
+          </button>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+
 
 
     <div class="services__header"> 
@@ -61,29 +72,44 @@
 
 
 
-  <div class="services__menu">
-    <button class="services__tab services__tab--active">Ремонтируемые бренды</button>
-    <button class="services__tab">Ремонтируемые устройства</button>
-    <button class="services__tab">Цены на услуги</button>
-    <button class="services__tab">Адреса сервисных центров</button>
-    <button class="services__tab">Специальные цены</button>
-  </div>
+    <div class="services__menu">
+      <input type="radio" name="tab" id="tab1" checked hidden>
+      <label for="tab1" class="services__tab">Ремонтируемые бренды</label>
+
+      <input type="radio" name="tab" id="tab2" hidden>
+      <label for="tab2" class="services__tab">Ремонтируемые устройства</label>
+
+      <input type="radio" name="tab" id="tab3" hidden>
+      <label for="tab3" class="services__tab">Цены на услуги</label>
+
+      <input type="radio" name="tab" id="tab4" hidden>
+      <label for="tab4" class="services__tab">Адреса сервисных центров</label>
+
+      <input type="radio" name="tab" id="tab5" hidden>
+      <label for="tab5" class="services__tab">Специальные цены</label>
+    </div>
+
 
   <div class="services__content">
     <div class="services__text">
-      <p>
-        Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
-        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-      </p>
-      <p>
-        Мы успешно работаем с 1992 года и заслужили репутацию надёжного партнёра. 
-        Мы гордимся тем, что к нам обращаются по рекомендациям и советуют нас родным и близким.
-      </p>
-      <a href="#" class="services__link">
+      <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.</p>
+      <p>Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+
+      <input type="checkbox" id="readMore" hidden>
+      <div class="more-text">
+        <p>Мы успешно работаем с 1992 года и заслужили репутацию надёжного партнёра.</p>
+        <p>Мы гордимся тем, что к нам обращаются по рекомендациям и советуют нас родным и близким.</p>
+      </div>
+
+      <label for="readMore" class="services__link">
         <img src="/imge/ic/icon.png" alt="стрелка" class="services__arrow" />
         Читать далее
-      </a>
+      </label>
     </div>
+
     <img src="/imge/_MG_3223.png" alt="CPS" class="services__image" />
   </div>
+
 </section>
+</body>
+</html>
